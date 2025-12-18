@@ -99,7 +99,7 @@ function App() {
     }
 
     if (!hasContent) {
-      showMessage('画布暂无内容', 'info');
+      showMessage('请先在画布上绘制数字！', 'warning');
       return;
     }
 
